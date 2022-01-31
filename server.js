@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.post('/api/register', (req, res)=>{
     console.log(req.body)
-    res.json({status: 'okkkkk'})
+    res.json({status: 'OKOKOK'})
 })
 app.get('/api/register', (req, res)=>{
     res.send('User new form')
